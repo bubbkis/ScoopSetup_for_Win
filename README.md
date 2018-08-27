@@ -27,6 +27,7 @@ SCOOP_GLOBAL = C:\ProgramData\scoop
 
 変更する場合は、
 管理者権限でプロンプトを起動し、以下を実行
+
 以下、例です。
 
 ```

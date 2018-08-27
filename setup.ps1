@@ -1,5 +1,5 @@
-scoop install git-with-openssh
 scoop install sudo
+scoop install git-with-openssh
 scoop install aria2
 
 sudo scoop install 7zip -g
