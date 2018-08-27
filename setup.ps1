@@ -35,6 +35,7 @@ scoop install nircmd
 scoop install patch
 scoop install ripgrep
 scoop install sed
+scoop install pshazz
 scoop install psutils
 scoop install wget
 scoop install which
