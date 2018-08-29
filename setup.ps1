@@ -43,21 +43,31 @@ scoop install wkhtmltopdf
 scoop install wuzz
 scoop install xsv
 
+# The next generation of APNG Assembler
 scoop install apngasm
+# design documentation tool
 scoop install artifact
+# file and archive manager
 scoop install far
+# Gifsicle is a command-line tool
 scoop install gifsicle
+# password cracker
 scoop install hashcat
 
 scoop install docker
 scoop install docker-compose
 scoop install docker-machine
 scoop install vagrant
-scoop install helm
-scoop install kompose
-scoop install portainer
-scoop install kubectl
 scoop install kvm
+# The package manager for Kubernetes
+scoop install helm
+# conversion tool for Docker Compose to container orchestrators such as Kubernetes
+scoop install kompose
+# manage your docker environments
+scoop install portainer
+# command line interface for running commands against Kubernetes clusters
+scoop install kubectl
+# Linux containers on Windows built with LinuxKit
 scoop install lcow
 scoop install minikube
 
@@ -110,26 +120,37 @@ scoop install sourcetree
 scoop install speccy
 scoop install speedfan
 
+# An 'alt+space' launcher for Windows, built with Electron
 scoop install hain
+# A fast launcher for keyboard ninjas on Windows
 scoop install keypirinha
+# launcher
 scoop install launchy
+# launcher
 scoop install wox
 
 scoop install anaconda3
 scoop install lazygit
 scoop install logexpert
+# A full-featured utility for Windows Subsystem for Linux (WSL).
 scoop install lxrunoffline
 scoop install mobaxterm
 scoop install posh-git
+# API Development Tool
 scoop install postman
+# lightweight GUI for MongoDB 
 scoop install robo3t
+# command line tool that facilitates continuous development for Kubernetes applications
 scoop install skaffold
 scoop install wireshark
+# Mintty as a terminal for WSL (Windows Subsystem for Linux).
 scoop install wsltty
 scoop install wxhexeditor
 scoop install x64dbg
+# offline documentation browser for software developers
 scoop install zeal
 
+# Visual Docker Container Management
 scoop install kitematic
 
 scoop bucket add emulators https://github.com/hermanjustnu/scoop-emulators.git
@@ -146,8 +167,10 @@ sudo scoop install snes9x -g
 
 scoop bucket add jp https://github.com/rkbk60/scoop-for-jp
 scoop install vim-kaoriya
+# commandline-shell for Windows
 scoop install nyagos
 
+# Jp Fonts
 sudo scoop install cica -g
 sudo scoop install myrica -g
 sudo scoop install myrica-m -g
@@ -166,4 +189,5 @@ sudo scoop install Steam -g
 sudo scoop install Winrar -g
 sudo scoop install PotPlayer -g
 
+# disabling tracking in Windows10
 scoop install DWT
