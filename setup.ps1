@@ -4,7 +4,7 @@ scoop install aria2
 
 sudo scoop install 7zip -g
 
-scoop install rsync
+##scoop install rsync
 scoop install ctags
 scoop install jetbrains-toolbox
 scoop install neovim
@@ -24,19 +24,28 @@ scoop install dig
 scoop install dos2unix
 scoop install fd
 scoop install findutils
+scoop install fzf
 scoop install gawk
 scoop install git-crypt
 scoop install git-lfs
+scoop install gitignore
 scoop install grep
 scoop install jq
 scoop install less
+scoop install lf
+scoop install ln
 scoop install netcat
 scoop install nircmd
 scoop install patch
 scoop install ripgrep
+scoop install runat
+scoop install say
 scoop install sed
+scoop install shasum
+scoop install time
+scoop install touch
 scoop install pshazz
-scoop install psutils
+scoop install vimtutor
 scoop install wget
 scoop install which
 scoop install wkhtmltopdf
@@ -85,6 +94,7 @@ sudo scoop install notepadplusplus -g
 sudo scoop install notepadplusplus-pm -g
 sudo scoop install ppsspp -g
 sudo scoop install speedcrunch -g
+sudo scoop install teamviewer -g
 sudo scoop install unlocker -g
 sudo scoop install vlc -g
 sudo scoop install wifi-manager -g
@@ -96,9 +106,36 @@ sudo scoop install xyplorer -g
 sudo scoop install youtube-dl-gui -g
 sudo scoop install jdownloader -g
 
-scoop install winscp
+scoop install advancedrenamer
+scoop install coretemp
+scoop install cpu-z
 scoop install freecommander
+# Display Driver Uninstaller AMD/NVIDIA
+scoop install ddu
+# Clipboard Manager
+scoop install ditto
+scoop install dnsjumper
+# all-in-one download manager
+scoop install eagleget-portable
+scoop install enpass
+scoop install everything
+scoop install fastcopy
+scoop install foobar2000-encoders
+scoop install foobar2000
+scoop install foxit-reader
+scoop install freeclipboardviewer
+scoop install fscapture
+scoop install fsviewer
 scoop install geekuninstaller
+scoop install gifcam
+scoop install gpu-z
+# screenshot software tool
+scoop install greenshot
+scoop install harmony
+scoop install hostsman
+# Website Copier
+scoop install httrack
+scoop install jpegview
 scoop install keepassxc
 scoop install keeweb
 scoop install mremoteng
@@ -108,7 +145,9 @@ scoop install openhardwaremonitor
 scoop install patheditor
 scoop install processhacker
 scoop install putty
+scoop install pci-z
 scoop install smartty
+scoop install ssd-z
 scoop install rainmeter
 scoop install rapidee
 scoop install recuva
@@ -119,6 +158,7 @@ scoop install slack
 scoop install sourcetree
 scoop install speccy
 scoop install speedfan
+scoop install winscp
 
 # An 'alt+space' launcher for Windows, built with Electron
 scoop install hain
@@ -130,21 +170,33 @@ scoop install launchy
 scoop install wox
 
 scoop install anaconda3
+# Install ArchLinux as a WSL Instance
+scoop install archwsl
+# Easily assume AWS roles in your terminal
+scoop install assume-role
+scoop install conemu
+scoop install consolez
+scoop install devdocs
+scoop install hack-font
+scoop install hyper
 scoop install lazygit
 scoop install logexpert
 # A full-featured utility for Windows Subsystem for Linux (WSL).
 scoop install lxrunoffline
 scoop install mobaxterm
 scoop install posh-git
+scoop install posh-docker
 # API Development Tool
 scoop install postman
 # lightweight GUI for MongoDB 
-scoop install robo3t
+#scoop install robo3t
 # command line tool that facilitates continuous development for Kubernetes applications
 scoop install skaffold
+scoop install util-linux-ng
 scoop install wireshark
 # Mintty as a terminal for WSL (Windows Subsystem for Linux).
 scoop install wsltty
+scoop install hxd
 scoop install wxhexeditor
 scoop install x64dbg
 # offline documentation browser for software developers
