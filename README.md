@@ -43,9 +43,9 @@ setup.ps1内の
 sudo scoop install ***** -g
 は全ユーザー共通用のグローバルインストールになります。
 
-コマンドプロンプトを起動し、以下を実行
+コマンドプロンプト or PowerShellを起動し、以下を実行
 
 ```
-powershell -ExecutionPolicy RemoteSigned -File C:\Users\<ユーザー名>\ScoopSetup_for_Win\setup.ps1
+powershell -ExecutionPolicy Unrestricted -File C:\Users\<ユーザー名>\ScoopSetup_for_Win\setup.ps1
 ```
 
