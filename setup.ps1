@@ -67,7 +67,7 @@ scoop install docker
 scoop install docker-compose
 scoop install docker-machine
 scoop install vagrant
-scoop install kvm
+#scoop install kvm
 # The package manager for Kubernetes
 scoop install helm
 # conversion tool for Docker Compose to container orchestrators such as Kubernetes
@@ -163,11 +163,11 @@ scoop install winscp
 # An 'alt+space' launcher for Windows, built with Electron
 scoop install hain
 # A fast launcher for keyboard ninjas on Windows
-scoop install keypirinha
+#scoop install keypirinha
 # launcher
-scoop install launchy
+#scoop install launchy
 # launcher
-scoop install wox
+#scoop install wox
 
 scoop install anaconda3
 # Install ArchLinux as a WSL Instance
@@ -237,7 +237,7 @@ scoop install virtualbox-np
 #sudo scoop install winrar-np -g
 
 scoop bucket add Ash258 https://github.com/Ash258/scoop-Ash258.git
-sudo scoop install Steam -g
+sudo scoop install Steam
 sudo scoop install Winrar -g
 sudo scoop install PotPlayer -g
 
